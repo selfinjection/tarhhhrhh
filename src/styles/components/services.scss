@@ -1,0 +1,31 @@
+.services-intro {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.services {
+    padding-top: 200px;
+}
+
+.s-item {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    gap: 10px;
+}
+
+.services-items {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 30px;
+}
+
+.button-transperent {
+    display: inline-block;
+}
+
+.services-learn_more {
+    margin-top: 75px;
+    text-align: center;
+}

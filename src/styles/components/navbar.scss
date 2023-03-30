@@ -1,0 +1,35 @@
+.navbar {
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 45%;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+
+    p {
+        display: inline-block;
+    }
+}
+
+.navbar-circle {
+    width: 44px;
+    height: 44px;
+    background: $base-color;
+    border-radius: 100%;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        color: white;
+    }
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+}
